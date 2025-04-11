@@ -1,0 +1,248 @@
+/*Font Style*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+:root {
+    --main-font: "Plus Jakarta Sans", sans-serif;
+}
+
+
+/*Color Scheme*/
+:root{
+    --birugelap: #003E9B;
+    --birumuda: #0088FF;
+    --putih: #ffffff;
+    --kuningneon: #FFEB55;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+}
+html, body{
+    overflow-x: hidden;
+}
+.bg-main{
+    background-color: aliceblue;
+    background-image: url(../images/main-bg.webp);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    border-radius: 0 0 20px 20px;
+}
+
+/*navbar adjusment*/
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.navbar-toggler {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-item {
+    padding: 5px 5px;
+}
+.navbar-scrolled {
+    background-color: aliceblue !important
+}
+
+
+/*section adjusment*/
+#home{
+    height: 100vh;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#unggulan{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#about{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#mobil{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#stepbook{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#rating{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#galeri{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#wisata{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+
+/*margin*/
+.margin-top-1{
+    margin-top: 18rem;
+}
+.margin-top-2{
+    margin-top: 1rem !important;
+}
+
+
+/*font-size*/
+.font-size-68px{
+    font-size: 68px;
+}
+.font-size-58px{
+    font-size: 58px;
+}
+
+
+/*font-colors*/
+.font-color-birumuda{
+    color: var(--birumuda);
+}
+.font-color-kuningneon{
+    color: var(--kuningneon);
+}
+
+/*Bg-color*/
+.bg-color-birumuda{
+    background-color: var(--birumuda);
+}
+
+/*font-weight*/
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+
+
+/*deco-text*/
+.text-decoration-none{
+    text-decoration: none;
+}
+
+/*custom*/
+.card-gradient-grey {
+    background: linear-gradient(to right, #000000, rgb(0, 0, 110));
+    
+  }
+  
+  .card-gradient-orange {
+    background: linear-gradient(135deg, #ff4d00, #8c1d00);
+  }
+  
+  .car-card img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  
+  .car-card .badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.7em;
+  }
+  .accordion-button {
+    background-color: aliceblue !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-weight: 600;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: aliceblue !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-item:not(:last-child) {
+    border-bottom: 1px solid #ccc !important;
+}
+.accordion-body{
+    background-color: aliceblue;
+}
+
+.stepper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow-x: auto;
+  }
+
+  @media (max-width: 992px) {
+    .stepper {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    position: relative;
+  }
+
+  .step-icon {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--birumuda);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .step.completed .step-icon {
+    background-color: var(--birumuda);
+  }
+  .border-biru{
+    border: 2px solid var(--birumuda);
+  }
+  .shadow-box{
+    box-shadow: rgba(25, 25, 25, 0.292) 0px 5px 30px;
+  }
+  

@@ -1,0 +1,29 @@
+@media (max-width: 1024px){
+    .margin-top-1{
+        margin-top: 13rem;
+    }
+}
+@media (max-width: 768px) {
+    .font-size-68px{
+        font-size: 55px;
+    }
+    .font-size-58px{
+        font-size: 48px;
+    }
+}
+@media (max-width: 616px){
+    .bg-main{
+        background-image: url(../images/main-bg.webp);
+        background-size: cover;
+        height: 100vh;
+        background-position: 30%;
+    }
+}
+@media (max-width:425px) {
+    .font-size-68px{
+        font-size: 48px;
+    }
+    .font-size-58px{
+        font-size: 38px;
+    }
+}
