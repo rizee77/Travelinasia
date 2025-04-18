@@ -11,6 +11,9 @@
     --birumuda: #0088FF;
     --putih: #ffffff;
     --kuningneon: #FFEB55;
+    --abu: #5e5e5e;
+    --footer-bg: rgba(62, 165, 255, 0.564);
+    --putih-abu: #fbfbfb;
 }
 
 *{
@@ -100,6 +103,21 @@ html, body{
     padding-bottom: 80px;
     padding-top: 80px;
 }
+#video{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#faq{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#footer{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
 
 
 /*margin*/
@@ -127,10 +145,19 @@ html, body{
 .font-color-kuningneon{
     color: var(--kuningneon);
 }
+.font-color-abu{
+    color: var(--abu);
+}
+.font-color-putihabu{
+    color: var(--putih-abu);
+}
 
 /*Bg-color*/
 .bg-color-birumuda{
     background-color: var(--birumuda);
+}
+.bg-footer{
+    background-color: var(--footer-bg);
 }
 
 /*font-weight*/
@@ -245,4 +272,36 @@ html, body{
   .shadow-box{
     box-shadow: rgba(25, 25, 25, 0.292) 0px 5px 30px;
   }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Rasio aspek 16:9 */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /*media sosial*/
+  .tiktok-gradient {
+    background: linear-gradient(50deg, #840000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+  }
+  .instagram-gradient {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px; /* bebas, bisa disesuaikan */
+  }
+  .facebook-solid {
+    color: #1877F2;
+    font-size: 30px;
+  }
+  
   
