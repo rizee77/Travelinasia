@@ -32,6 +32,14 @@ html, body{
     background-attachment: scroll;
     border-radius: 0 0 20px 20px;
 }
+.bg-second{
+    background-color: aliceblue;
+    background-image: url(../images/second-bg.png);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    background-position: 60% 40%;
+}
 
 /*navbar adjusment*/
 #navbar {
@@ -58,7 +66,7 @@ html, body{
     padding: 5px 5px;
 }
 .navbar-scrolled {
-    background-color: aliceblue !important
+    background-color: rgb(127, 195, 255) !important
 }
 
 
@@ -68,10 +76,20 @@ html, body{
     padding-bottom: 80px;
     padding-top: 80px;
 }
+#home2{
+  height: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
 #unggulan{
     height: auto;
     padding-bottom: 80px;
     padding-top: 80px;
+}
+#deskKota{
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 #about{
     height: auto;
@@ -127,6 +145,12 @@ html, body{
 .margin-top-2{
     margin-top: 1rem !important;
 }
+.margin-top-3{
+    margin-top: 13rem;
+}
+.margin-top-4{
+    margin-top: 13rem;
+}
 
 
 /*font-size*/
@@ -135,6 +159,9 @@ html, body{
 }
 .font-size-58px{
     font-size: 58px;
+}
+.font-size-48px{
+    font-size: 48px;
 }
 
 
@@ -158,6 +185,9 @@ html, body{
 }
 .bg-footer{
     background-color: var(--footer-bg);
+}
+.bg-color-putihbiru{
+    background-color: rgb(149, 216, 255);
 }
 
 /*font-weight*/
@@ -355,5 +385,10 @@ html, body{
     pointer-events: auto;
     opacity: 1;
   }
-  
+  .logo-1{
+    width: 200px;
+  }
+  .list-none{
+    list-style: none;
+  }
   
