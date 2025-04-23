@@ -34,7 +34,7 @@ html, body{
 }
 .bg-second{
     background-color: aliceblue;
-    background-image: url(../images/second-bg.png);
+    background-image: url(../images/second-bg.webp);
     background-size: cover;
     height: 100vh;
     background-attachment: scroll;
