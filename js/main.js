@@ -9,18 +9,18 @@ function changeNavbarBackground() {
   }
 }
 
-// document.addEventListener('contextmenu', function(event) {
-//   event.preventDefault();
-// });
+document.addEventListener('contextmenu', function(event) {
+  event.preventDefault();
+});
 
-// document.addEventListener('keydown', function(event) {
-//   //Cegah F12, Ctrl+Shift+I, dan Ctrl+U
-//   if (event.key === "F12" || 
-//       (event.ctrlKey && event.shiftKey && event.key === "I") || 
-//       (event.ctrlKey && event.key === "U")) {
-//     event.preventDefault();
-//   }
-// });
+document.addEventListener('keydown', function(event) {
+  //Cegah F12, Ctrl+Shift+I, dan Ctrl+U
+  if (event.key === "F12" || 
+      (event.ctrlKey && event.shiftKey && event.key === "I") || 
+      (event.ctrlKey && event.key === "U")) {
+    event.preventDefault();
+  }
+});
 
 const toTop = document.querySelector(".to-top");
 
