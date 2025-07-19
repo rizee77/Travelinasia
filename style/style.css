@@ -40,6 +40,22 @@ html, body{
     background-attachment: scroll;
     background-position: 60% 40%;
 }
+.bg-third{
+  background-color: aliceblue;
+    background-image: url(../images/wisataimages/candi-arjuna-2.webp);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    border-radius: 0 0 20px 20px;
+}
+.bg-fourth{
+  background-color: aliceblue;
+    background-image: url(../images/wisataimages/jogja.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: scroll;
+    border-radius: 0 0 20px 20px;
+}
 
 /*navbar adjusment*/
 #navbar {
@@ -80,6 +96,9 @@ html, body{
   height: auto;
   padding-bottom: 80px;
   padding-top: 80px;
+}
+#home3{
+  height: 110vh;
 }
 #unggulan{
     height: auto;
@@ -140,7 +159,7 @@ html, body{
 
 /*margin*/
 .margin-top-1{
-    margin-top: 18rem;
+    margin-top: 13rem;
 }
 .margin-top-2{
     margin-top: 1rem !important;
@@ -177,6 +196,9 @@ html, body{
 }
 .font-color-putihabu{
     color: var(--putih-abu);
+}
+.font-color-1{
+  color: #0004ff;
 }
 
 /*Bg-color*/
