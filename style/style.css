@@ -410,6 +410,10 @@ html, body{
   .logo-1{
     width: 200px;
   }
+  .logo-2{
+    width: 200px;
+    z-index: 2;
+  }
   .list-none{
     list-style: none;
   }
